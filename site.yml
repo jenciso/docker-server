@@ -1,0 +1,8 @@
+- name: Docker Server
+  hosts: "docker"
+  remote_user: ansible
+  become: true
+  roles:
+    - { role: init, when: verify_init }
+    - common
+    - docker-ce
