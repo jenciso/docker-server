@@ -4,6 +4,7 @@ Playbook to provision a docker server with the last version from docker communit
 
 Dependences:
 
+* init
 * common
 * docker-ce
 
