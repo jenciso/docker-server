@@ -5,6 +5,7 @@ It install the last docker version (Docker Community Edition)
 
 Dependences:
 
+* Ansible >= 2.3
 * Centos 7 
 * 1 Aditional disk device named /dev/sdb 
 
