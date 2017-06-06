@@ -1,0 +1,6 @@
+---
+## DOCKER
+
+docker_version: 17.03.1
+docker_lvm_storage: yes
+docker_lvm_device: /dev/sdb
